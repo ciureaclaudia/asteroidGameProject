@@ -1,0 +1,92 @@
+ #canvas1{ 
+    background-color: black;
+    border: 1px solid #FFF;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* width: 750px;
+    height: 550px; */
+   
+} 
+
+#navaPoza1{
+    top:30%;
+    left:90%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+    shape-outside: circle();
+    clip-path: circle();
+    /* background: lightblue; */
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(27, 48, 211));
+}
+
+#navaPoza2{
+    top:90%;
+    left:10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+    shape-outside: circle();
+    clip-path: circle();
+    /* background: lightblue; */
+    background-image: radial-gradient(circle, rgba(204, 187, 248), rgb(84, 45, 241),rgb(84, 45, 241,0));
+}
+
+body{
+    /* background-color: black; */
+    background-image: url("media/cer.jpg");
+
+}
+#text{
+ 
+    /* display: flex; */
+   /* orientation: portrait; */
+   
+   background-color: black;
+   color: white;
+
+    font-family: 'Papyrus', 'fantasy';
+    font-size: 18px; 
+    font-style: italic; 
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 13.2px;
+
+   border: 1px solid #FFF;
+   padding: 10px;
+
+   top:50%;
+   left:10%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+  
+} 
+
+#TabelaScor{
+ 
+    /* display: flex; */
+   /* orientation: portrait; */
+   
+   background-color: black;
+   color: white;
+
+    font-family: 'Papyrus', 'fantasy';
+    font-size: 15px; 
+    font-style: italic; 
+    font-variant: normal;
+    font-weight: 650;
+    line-height: 11px;
+
+   border: 1px solid #FFF;
+   padding: 10px;
+
+   top:17%;
+   left:9%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+  
+} 
+
+
